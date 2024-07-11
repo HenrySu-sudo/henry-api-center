@@ -1,0 +1,26 @@
+server:
+  port: 8123
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          # ???????????
+          enabled: true
+      routes:
+        # ???ID????????????service name??
+        - id: interface1
+          # lb??????
+          uri: http://localhost:8090/
+          predicates:
+            # ????,??order???????cloud-order-service
+            - Path=/api/**
+dubbo:
+  application:
+    name: dubbo-springboot-demo-consumer
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: zookeeper://${zookeeper.address:127.0.0.1}:2181

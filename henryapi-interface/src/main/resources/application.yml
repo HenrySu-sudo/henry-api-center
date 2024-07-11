@@ -1,0 +1,11 @@
+# 公共配置文件
+# @author <a href="https://github.com/liyupi">程序员鱼皮</a>
+# @from <a href="https://yupi.icu">编程导航知识星球</a>
+server:
+  port: 8090
+  servlet:
+    context-path: /api
+henryapi:
+  client:
+    access-key: 04b8a8d5d747ff1ac236c71f29b8966c
+    secret-key: 5efffad10dc298acb1baef025fab1f6d
