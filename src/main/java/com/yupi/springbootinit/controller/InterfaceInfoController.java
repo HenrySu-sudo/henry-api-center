@@ -145,6 +145,7 @@ public class InterfaceInfoController {
      */
     @GetMapping("/get")
     public BaseResponse<InterfaceInfo> getinterfaceInfoById(long id) {
+
         if (id <= 0) {
             throw new BusinessException(ErrorCode.PARAMS_ERROR);
         }
