@@ -12,7 +12,7 @@ import org.springframework.data.elasticsearch.core.query.UpdateQuery;
 import org.springframework.stereotype.Service;
 
 /**
-* @author hsu
+*  hsu
 * @description 针对表【user_interface_info(用户调用接口关系)】的数据库操作Service实现
 * @createDate 2024-07-05 15:49:43
 */

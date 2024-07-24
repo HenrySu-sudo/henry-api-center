@@ -21,7 +21,7 @@ import static com.yupi.springbootinit.constant.UserConstant.ADMIN_ROLE;
 import static com.yupi.springbootinit.constant.UserConstant.USER_LOGIN_STATE;
 
 /**
-* @author hsu
+*  hsu
 * @description 针对表【user(用户)】的数据库操作Service实现
 * @createDate 2024-07-05 15:48:52
 */
